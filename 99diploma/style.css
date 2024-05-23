@@ -84,7 +84,6 @@ a.nav-link {
     font-size: 14px;
     color: #191919;
     font-weight: 600;
-
 }
 
 a.nav-link:hover {
@@ -95,7 +94,6 @@ h6.heading {
     font-family:"Assistant", Sans-serif;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     padding-bottom: 10px;
 }
 p.card-text {
@@ -238,6 +236,12 @@ a.fab.fa-linkedin.linkedin{
     .carding {
         display: none;
     }
+    h6.heading.head {
+        text-align: center;
+    }
+    .foot {
+        padding: 20px 10px 20px 10px;
+    }
     
 }
 /* header css */
@@ -268,16 +272,15 @@ li.nav-item {
     color: black;
     font-family: "Assistant", Sans-serif;
     font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 600;
 
 }
 
-@media only screen and (max-width: 767px) {
-    .navt {
+@media only screen and (max-width: 992px) {
+.navt {
         display: none;
     }
-    img#diploma {
+img#diploma {
         width: 100px;
     }
 
@@ -316,4 +319,5 @@ img#diploma {
         flex: 0 0 auto;
         width:45%;
     }
+    
 }
